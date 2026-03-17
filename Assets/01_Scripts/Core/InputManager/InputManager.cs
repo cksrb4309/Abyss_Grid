@@ -35,6 +35,8 @@ public class InputManager : MonoBehaviour
             inputActions[inputType].action.Disable();
         }
     }
+
+    #region Unity Methods
     public void Awake()
     {
         foreach (InputActionData data in InputActionDatas)
@@ -64,4 +66,5 @@ public class InputManager : MonoBehaviour
             }
         }
     }
+    #endregion
 }
