@@ -81,7 +81,7 @@ MonoBehaviour:
   m_UseFullLayers: 0
   m_PhysicsWorldDefinition:
     m_Gravity: {x: 0, y: -9.81}
-    m_SimulationType: 0
+    m_SimulationType: 2
     m_SimulationSubSteps: 4
     m_SimulationWorkers: 64
     m_TransformWriteMode: 1
@@ -102,7 +102,7 @@ MonoBehaviour:
     m_ContactSpeed: 3
     m_MaximumLinearSpeed: 400
     m_DrawOptions: 4256
-    m_DrawFillOptions: 7
+    m_DrawFillOptions: -1
     m_DrawThickness: 1
     m_DrawFillAlpha: 0.1
     m_DrawPointScale: 0.5
